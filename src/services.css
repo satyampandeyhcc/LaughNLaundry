@@ -1,0 +1,34 @@
+.my-card-main-img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.my-card-main-text{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+/* Container needed to position the button. Adjust the width as needed */
+.bg-img-container {
+    position: relative;
+  
+}
+  
+  /* Make the image responsive */
+.bg-img-container img {
+    height: auto;
+}
+  
+  /* Style the button and place it in the middle of the container/image */
+.bg-img-container .btn-overlay {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #D76D6D;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}

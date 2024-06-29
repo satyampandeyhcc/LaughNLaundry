@@ -1,0 +1,93 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gugi:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+ 
+  --font-inter: Inter;
+  --font-poppins: Poppins;
+  --font-grandstander: Grandstander;
+  --font-outfit: Outfit;
+  --font-roboto: Roboto;
+  --font-gugi: Gugi;
+
+  --font-size-xs: 12px;
+  --font-size-31xl: 50px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-16xl: 35px;
+  --font-size-lg: 18px;
+  --font-size-base: 16px;
+  --font-size-41xl: 60px;
+  --font-size-21xl: 40px;
+  --font-size-3xl: 22px;
+
+
+  --color-royalblue: #407bff;
+  --color-darkslategray-100: #363636;
+  --color-darkslategray-200: #263238;
+  --color-gold-100: #ddc630;
+  --color-white: #fff;
+  --color-darkturquoise: #00b6ce;
+  --color-gray-100: #041014;
+  --color-black: #000;
+  --color-indianred: #d76d6d;
+  --color-whitesmoke: #f7f7f7;
+
+
+  --gap-3xs: 10px;
+  --gap-5xl: 24px;
+
+
+  --br-3xs: 10px;
+  --br-4xs-7: 8.7px;
+  --br-xl: 20px;
+  --br-21xl: 40px;
+}
+

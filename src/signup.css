@@ -1,0 +1,299 @@
+.LoginForm1{
+    display: flex;
+  }
+  
+  
+  .loginimg1{
+    
+    width: 70vw;
+  }
+  .loginimg1 img{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .loginform1{
+    
+    width: 30vw;
+    padding: 20px;
+    
+  }
+  .loginform1 .toppara1{
+  
+    
+    color: #000;
+  
+  text-align: center;
+  
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+  }
+  
+  .loginform1 .medpara1{
+  
+    margin-top: 7vh;
+    color: var(--black-9001-a-1-a-1-a, #1A1A1A);
+  font-feature-settings: 'clig' off, 'liga' off;
+  /* Title */
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 140% */
+  }
+  
+  .loginform231 input{
+  width: 100%;
+  height: 40px;
+  border-radius: 6px;
+  display: flex;
+  border: 1px solid #E5E5E5;
+  padding: 8px 8px 8px 16px;
+  justify-content: space-between;
+  align-items: center;
+  
+  background-color:  #E5E5E5;
+  
+  
+  
+  }
+  .loginform1 label p{
+    margin: 7px;
+    color: var(--black-800333333, #333);
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Times New Roman;
+font-size: 11px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 109.091% */
+letter-spacing: 0.3px;
+  }
+  /* .loginform label button{
+    position: absolute;
+    top: 52vh;
+      right: 2.5%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #333; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+  } */
+  .input-wrapper1 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .input-wrapper1 input {
+    padding-right: 30px; /* Adjust padding to accommodate the button */
+    width: 100%;
+  }
+  
+  .input-wrapper1 button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 5px 10px;
+    width: 15%;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: #333; 
+    padding: 10px 20px; 
+    cursor: pointer;
+  }
+  
+  /* ToggleSwitch.css */
+  
+  .toggle-switch1 {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  .toggle-switch1 input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider1 {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E5E5E5;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+  }
+  
+  .slider1:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 1px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider1 {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider1 {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider1:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  .loginform1 .toggle-switch1{
+    margin-top: 24px;
+    display: block;
+  }
+  .loginform1 .tog_rem_forget1{
+    display: flex;
+  }
+  
+  .loginform1 .tog_rem_forget1 button{
+    background-color: rgba(0, 0, 0, 0); /* Transparent black */
+    border: none;
+    color: #333; /* Set text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    position: absolute;
+    right: 1%;
+    margin-top: 20px;
+  
+  
+    color: var(--system-blue-007-aff, #007AFF);
+  text-align: right;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Times New Roman;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+  }
+  
+  .loginform1 .tog_rem_forget1 h4{
+  
+    margin-top: 25px;
+    margin-left: 7px;
+    color: var(--black-9001-a-1-a-1-a, #1A1A1A);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Times New Roman;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+  }
+  .loginform231 .signin_button1 button{
+    border-radius: 6px;
+  background: var(--system-blue-007-aff, #007AFF);
+  width: 100%;
+  text-align: center;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  color: #f7f7f7;
+  }
+  .loginform231 .signin_button_with_google1 button{
+    border-radius: 6px;
+  background: var(--black-800333333, #333);
+  width: 100%;
+  text-align: center;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  color: #f7f7f7;
+  }
+  
+  .loginform231 .signin_button_with_google1 .flexing_google1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .loginform231 .signin_button_with_google1 .flexing_google1 img{
+    margin-right: 10px;
+  }
+  .loginform231 .last_para1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  .loginform231 .last_para1 button{
+    background-color: rgba(0, 0, 0, 0); /* Transparent black */
+    border: none;
+    color: var(--system-blue-007-aff, #007AFF);
+  text-align: right;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Times New Roman;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    
+  
+  
+  }
+  .loginform231 .last_para1 p{
+    color: var(--black-9001-a-1-a-1-a, #1A1A1A);
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Times New Roman;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.3px;
+  }
+  
+  @media screen and (max-width: 850px) {
+  
+  
+  .LoginForm1{
+    flex-direction: column;
+    
+  }
+  
+  .loginimg1{
+    
+    display: none;
+  }
+  /* .loginimg1 img{
+    width: 100%;
+    height: 80vh;
+  } */
+  
+  .loginform1{
+    
+    width: 100vw;
+    margin: 0;
+    
+  }
+  
+  }

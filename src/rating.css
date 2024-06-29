@@ -1,0 +1,15 @@
+/* Simplified Styles */
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.on {
+    color: gold; /* or any other color you want for selected stars */
+}
+
+.off {
+    color: gray; /* or any other color you want for unselected stars */
+}

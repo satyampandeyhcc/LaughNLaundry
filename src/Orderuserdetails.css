@@ -1,0 +1,226 @@
+/* .vertical-timeline {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.custom-step {
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.custom-step::before {
+    content: '';
+    position: absolute;
+    top: 96%;
+    left: 10%;
+    width: 8px;
+    height: calc(100% - 20px);
+    background-color: #28a745;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.custom-step:last-child::before {
+    height: 50%;
+}
+
+.custom-step-icon-wrap {
+    margin-right: 15px;
+}
+
+.custom-step-icon {
+    background-color: #28a745;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.custom-icons {
+    color: #28a745;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.my-feedback-area{
+    border: 1px solid #E4E7E9;
+}
+@media only screen and (max-width:1000px){
+    .my-snow-img{
+        display: none;
+    }
+    .custom-step::before {
+    
+        top: 96%;
+        left: 5%;
+        width: 8px;
+        height: calc(100% - 20px);
+        background-color: #28a745;
+        transform: translate(-50%, -50%);
+        z-index: 0;
+    }
+} */
+.custom-icons{
+    font-size: 30px;
+}
+.date-time{
+    font-size: 12px;
+}
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    /* margin-top: 0%; */
+    position: relative;
+  }
+  
+  .timeline:before {
+    top: 10%;
+    bottom: 8.5%;
+    position: absolute;
+    content: " ";
+    width: 6px;
+    background-color: #00B207;
+    left: 10%;
+    margin-left: -1.5px;
+  }
+  
+  .timeline > li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: " ";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li:before,
+  .timeline > li:after {
+    content: " ";
+    display: table;
+  }
+  
+  .timeline > li:after {
+    clear: both;
+  }
+  
+  .timeline > li > .timeline-panel {
+    width: 80%;
+    float: left;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+  
+  }
+  
+ .timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 33%;
+    left: 10%;
+    margin-left: -25px;
+    background-color: #00B207;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+  
+  .timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+  
+  .timeline-body > p,
+  .timeline-body > ul {
+    margin-bottom: 0;
+  }
+  
+  .timeline-body > p + p {
+    margin-top: 0px;
+  }
+  
+  .flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  
+  .flex-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  .flex-between {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .flex-start {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  
+  .flex-end {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  .flex-around {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  
+  .flex-center {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .align-items-center {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  @media only screen and (max-width:1000px){
+    .my-snow-img{
+        display: none;
+    }
+    .delivery-img{
+      display: none;
+    }
+    
+}

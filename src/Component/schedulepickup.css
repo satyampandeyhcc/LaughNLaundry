@@ -1,0 +1,356 @@
+.backgroundimg {
+  /* position: fixed; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* width: 32%; */
+  /* height: 150vh; */
+  /* background-image: url("./Component/images/background_image_pickup.png"); */
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+.PickUpForm .content {
+  background-color: #b99674;
+  border-radius: 8px;
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+  height: 92vh;
+  margin-left: 10vw;
+  margin-right: 22vw;
+  padding: 2rem;
+  height: auto;
+}
+.PickUpForm .content p {
+  color: #fff;
+
+  font-family: Encode Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  padding-left: 7px;
+}
+.PickUpForm .content input {
+  border-radius: 8px;
+
+  height: 50px;
+  border: 0.5px solid var(--Foundation-Dark-Lighter, #b6b6b6);
+  background: var(--Foundation-Light-White, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.PickUpForm .content select {
+  height: 50px;
+  border-radius: 8px;
+  width: 100%;
+
+  color: #666;
+}
+
+.PickUpForm .content .toplogo {
+  display: flex;
+  justify-content: center;
+}
+.PickUpForm .content .toplogo img {
+  height: 175px;
+  width: 175px;
+  margin-top: -60px;
+  margin-left: 3.5vw;
+}
+.PickUpForm .content .toplogo h2 {
+  color: #0a0a0a;
+
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 61px;
+}
+
+.PickUpForm .content .grid-container-pickup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px; /* Adjust the gap as needed */
+}
+
+.PickUpForm .content .date-input-container input {
+  color: #666;
+}
+
+.PickUpForm .content .NameInput {
+  margin-top: -25px;
+}
+
+.PickUpForm .content .pickup-input-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 49%;
+}
+
+.PickUpForm .content .pickup-input-wrapper input {
+  padding-right: 30px; /* Adjust padding to accommodate the button */
+  width: 100%;
+}
+
+.PickUpForm .content .pickup-input-wrapper button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  padding: 5px 10px;
+  width: 7%;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #333;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.PickUpForm .content .items_input {
+  width: 49%;
+}
+
+.PickUpForm .content .Address_pickup {
+  margin-bottom: 10px;
+}
+.pickup-textarea-schedule {
+  border-radius: 0px 0px 6px 6px;
+  border: 1px solid #ff9201;
+  background: rgba(255, 255, 255, 0.5);
+  display: flex;
+  width: 60%;
+  margin-left: 20%;
+
+  padding: 6px 16px 9px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2px;
+  flex-shrink: 0;
+
+  justify-content: center;
+  text-align: center;
+  margin-top: 27px;
+}
+
+/* .write-text-pickup {
+  width: 100%;
+
+  flex-shrink: 0;
+  height:12vh;
+
+  background: rgb(220 203 186);
+  color: var(--Gray-Scale-Gray-600, #666);
+
+ 
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+  border: 0px solid red;
+
+  
+
+} */
+.PickUpForm .content .Submit_button {
+  display: flex;
+  justify-content: center;
+}
+
+.PickUpForm .content .Submit_button button {
+  color: #363636;
+  margin-top: 12px;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  width: 50%;
+  height: 40px;
+  border: none;
+  line-height: normal;
+  border-radius: 15px;
+
+  background: #ff9201;
+}
+
+/* Existing styles */
+
+
+/* @media only screen and (min-width: 1050px)  {
+  .PickUpForm .content .toplogo img {
+    height: 100px;
+    width: 100px;
+    margin-top: -22px;
+  }
+
+} */
+@media only screen and (max-width: 1050px) and (min-width: 768px) {
+  .PickUpForm .content .toplogo {
+    margin-bottom: 25px;
+  }
+  .PickUpForm .content .toplogo h2 {
+    font-size: 28px;
+  }
+  .PickUpForm .content .toplogo img {
+    height: 100px;
+    width: 100px;
+    margin-top: -22px;
+  }
+}
+
+@media only screen and (max-width: 530px) and (min-width: 200px) {
+  .PickUpForm .content .items_input {
+    width: 100%;
+  }
+  .PickUpForm .content .toplogo {
+    margin-bottom: 25px;
+  }
+  .PickUpForm .content .toplogo h2 {
+    font-size: 14px;
+  }
+  .PickUpForm .content .toplogo img {
+    height: 70px;
+    width: 70px;
+    margin-top: -12px;
+  }
+  .PickUpForm .content {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .PickUpForm .content .grid-container-pickup {
+    grid-template-columns: 1fr;
+  }
+
+  .PickUpForm .content .pickup-input-wrapper {
+    width: 100%;
+  }
+
+  .PickUpForm .content .Submit_button button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 340px) and (min-width: 200px) {
+  .PickUpForm .content .items_input {
+    width: 100%;
+  }
+  .PickUpForm .content .toplogo {
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+  }
+  .PickUpForm .content .toplogo h2 {
+    font-size: 12px;
+  }
+  .PickUpForm .content .toplogo img {
+    height: 100px;
+    width: 100px;
+    margin-top: -0px;
+  }
+  .PickUpForm .content {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  .PickUpForm .content .grid-container-pickup {
+    grid-template-columns: 1fr;
+  }
+
+  .PickUpForm .content .pickup-input-wrapper {
+    width: 100%;
+  }
+
+  .PickUpForm .content .Submit_button button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 530px) {
+  .PickUpForm .content .items_input {
+    width: 100%;
+  }
+  .PickUpForm .content .toplogo {
+    margin-bottom: 25px;
+  }
+  .PickUpForm .content {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .PickUpForm .content .toplogo h2 {
+    font-size: 28px;
+  }
+  .PickUpForm .content .toplogo img {
+    height: 100px;
+    width: 100px;
+    margin-top: -22px;
+  }
+
+  .PickUpForm .content .grid-container-pickup {
+    grid-template-columns: 1fr;
+  }
+
+  .PickUpForm .content .pickup-input-wrapper {
+    width: 100%;
+  }
+
+  .PickUpForm .content .Submit_button button {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1420px) and (min-width: 768px) {
+  .PickUpForm .content .pickup-input-wrapper button {
+    width: 12%;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 500px) {
+  .PickUpForm .content .pickup-input-wrapper button {
+    width: 9%;
+  }
+}
+
+@media only screen and (max-width: 500px) and (min-width: 200px) {
+  .PickUpForm .content .pickup-input-wrapper button {
+    width: 15%;
+  }
+}
+.btn-hom1 {
+  background-color: white;
+  color: #fa8232;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: solid #fa8232 1px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.btn-order1 {
+  background-color: #fa8232;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+.modal-body p {
+  color: black;
+}
+.no-underline {
+  text-decoration: none !important; /* Remove underline */
+  border: none !important; /* Remove border */
+  outline: none !important; /* Remove outline */
+  box-shadow: none !important; /* Remove box-shadow */
+}
